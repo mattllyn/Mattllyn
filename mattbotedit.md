@@ -1100,7 +1100,7 @@
     }
 
     lockCommand.prototype.init = function() {
-      this.command = '/trava';
+      this.command = '!trava';
       this.parseType = 'exact';
       return this.rankPrivelege = 'bouncer';
     };
