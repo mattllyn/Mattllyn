@@ -349,7 +349,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me: [Mattllyn] BOT EDT LOADED!");
+    return API.sendChat("/me: BOT EDT LOADED!");
   };
 
   populateUserData = function() {
@@ -624,7 +624,7 @@
     }
 
     newSongsCommand.prototype.init = function() {
-      this.command = '/musicanova';
+      this.command = '!musicanova';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -683,7 +683,7 @@
     }
 
     whyWootCommand.prototype.init = function() {
-      this.command = '!Mattllyn';
+      this.command = '!HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -711,7 +711,7 @@
     }
 
     themeCommand.prototype.init = function() {
-      this.command = '/temas';
+      this.command = '!temas';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -742,7 +742,7 @@
     }
 
     rulesCommand.prototype.init = function() {
-      this.command = '/regras';
+      this.command = '!regras';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -778,7 +778,7 @@
     }
 
     roomHelpCommand.prototype.init = function() {
-      this.command = '/ajuda';
+      this.command = '!ajuda';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -808,7 +808,7 @@
     }
 
     sourceCommand.prototype.init = function() {
-      this.command = ['/autor', '/author', '/autor'];
+      this.command = ['!autor', '!author', '!autor'];
       this.parseType = 'exact';
       return this.rankPrivelege = 'featured';
     };
@@ -832,7 +832,7 @@
     }
 
     wootCommand.prototype.init = function() {
-      this.command = '/autowoot';
+      this.command = '!autowoot';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -884,7 +884,7 @@
     }
 
     downloadCommand.prototype.init = function() {
-      this.command = '/fb';
+      this.command = '!facebook';
       this.parseType = 'exact';
       return this.rankPrivelege = 'featured';
     };
@@ -910,7 +910,7 @@
     }
 
     afksCommand.prototype.init = function() {
-      this.command = '!afks', '/afks';
+      this.command = '!afks';
       this.parseType = 'exact';
       return this.rankPrivelege = 'bouncer';
     };
@@ -950,7 +950,7 @@
     }
 
     allAfksCommand.prototype.init = function() {
-      this.command = '!allafks', '/allafks';
+      this.command = '!allafks';
       this.parseType = 'exact';
       return this.rankPrivelege = 'manager';
     };
@@ -990,7 +990,7 @@
     }
 
     statusCommand.prototype.init = function() {
-      this.command = '/status';
+      this.command = '!status';
       this.parseType = 'exact';
       return this.rankPrivelege = 'bouncer';
     };
@@ -1122,7 +1122,7 @@
     }
 
     unlockCommand.prototype.init = function() {
-      this.command = '/destrava';
+      this.command = '!destrava';
       this.parseType = 'exact';
       return this.rankPrivelege = 'bouncer';
     };
@@ -1144,7 +1144,7 @@
     }
 
     removeCommand.prototype.init = function() {
-      this.command = '/remove';
+      this.command = '!remove';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'bouncer';
     };
@@ -1392,7 +1392,7 @@
     }
 
     resetAfkCommand.prototype.init = function() {
-      this.command = '/resetafk';
+      this.command = '!resetafk';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'mod';
     };
@@ -1429,7 +1429,7 @@
     }
 
     forceSkipCommand.prototype.init = function() {
-      this.command = '/forceskip';
+      this.command = '!forceskip';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'cohost';
     };
@@ -1509,7 +1509,7 @@
     }
 
     skipCommand.prototype.init = function() {
-      this.command = '/pula';
+      this.command = '!pula';
       this.parseType = 'exact';
       return this.rankPrivelege = 'bouncer';
     };
